@@ -281,6 +281,10 @@
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+.sun-editor-editable.se-table-selected-off table td.se-table-selected-cell , .sun-editor-editable.se-table-selected-off table th.se-table-selected-cell {
+    border: none!important;
+    background-color: transparent!important;
+}
 
 /** component (image, iframe video) */
 .sun-editor-editable .se-component {
